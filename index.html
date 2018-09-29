@@ -35,23 +35,34 @@
 <body>
     <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
         <div class="container">
-            <a href="index.html" class="navbar-brand">Studious</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.google.com">Account</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.google.com">Settings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.google.com">Logout</a>
-                </ul>
-            </div>
-        </div>
+           <a href="index.html" class="navbar-brand">Studious</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-between" id="navbarResponsive">
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link" href="https://www.google.com">Account</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="https://www.google.com">Settings</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="https://www.google.com">Logout</a>
+             </ul>
+
+             <ul class="navbar-nav">
+                   <li class="nav-item">
+                           <a class="nav-link" href="https://www.google.com">Inbox</a>
+                         </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="https://www.google.com">Notifications</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="https://www.google.com">Settings</a>
+               </ul>
+           </div>
+       </div>
     </div>
     <div class="container">
         <div class="row">
@@ -154,6 +165,12 @@
         </div>
     </div>
 
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+
+    <script src="Bootstrap/calender.js"></script>
     <script src="Bootstrap/jquery.js"></script>
     <script src="Bootstrap/popper.js"></script>
     <script src="Bootstrap/bootstrap.js"></script>
